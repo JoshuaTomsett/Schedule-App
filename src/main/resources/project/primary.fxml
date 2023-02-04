@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="1050.0" style="-fx-background-color: #02030A;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.PrimaryController">
+   <children>
+      <VBox prefHeight="576.0" prefWidth="256.0" style="-fx-background-color: #05071F;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="btnSchedule" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#handleClicks" prefHeight="42.0" prefWidth="256.0" stylesheets="@style.css" text="Schedule" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <padding>
+                  <Insets left="90.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnToDo" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#handleClicks" prefHeight="42.0" prefWidth="256.0" stylesheets="@style.css" text="To Do" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <padding>
+                  <Insets left="90.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnGoals" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#handleClicks" prefHeight="42.0" prefWidth="256.0" stylesheets="@style.css" text="Goals" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <padding>
+                  <Insets left="90.0" />
+               </padding>
+            </Button>
+         </children></VBox>
+      <Pane fx:id="paneGoals" layoutX="256.0" prefHeight="576.0" prefWidth="794.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="256.0000000000001" AnchorPane.rightAnchor="-0.39999999999997726" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="576.0" prefWidth="794.0" text="Goals" />
+         </children>
+      </Pane>
+      <Pane fx:id="paneToDo" layoutX="256.0" prefHeight="576.0" prefWidth="794.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="256.0000000000001" AnchorPane.rightAnchor="-0.39999999999997726" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="576.0" prefWidth="794.0" text="To Do" />
+         </children>
+      </Pane>
+      <Pane fx:id="paneSchedule" layoutX="256.0" prefHeight="576.0" prefWidth="794.0" style="-fx-background-color: #02030A;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="256.0000000000001" AnchorPane.rightAnchor="-0.39999999999997726" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="576.0" prefWidth="46.0" style="-fx-background-color: #121212;">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" text="add" />
+                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" text="del" />
+                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" text="edit" />
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
