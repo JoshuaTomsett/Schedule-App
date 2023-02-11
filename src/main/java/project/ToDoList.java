@@ -52,11 +52,4 @@ class ToDoList {
     public int data_size() {
         return data.size();
     }
-
-    public void print_data() {
-        System.out.println("");
-        for (int i = 0; i < data.size(); i++) {
-            System.out.println(i+1 + " - " + data.get(i));
-        }
-    }
 }

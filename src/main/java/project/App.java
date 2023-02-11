@@ -14,6 +14,10 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
+
+        // Schedule schedule = new Schedule();
+        // ToDoList to_do_list = new ToDoList();
+
         scene = new Scene(loadFXML("primary"));
         stage.setScene(scene);
         // stage.setMaximized(true);
@@ -33,3 +37,9 @@ public class App extends Application {
         launch();
     }
 }
+
+// To Do
+
+// header for schedule pane - Time, Task, Add new task
+
+// create custom widget for schedule - time, task, edit button(little pen), delete button(X)

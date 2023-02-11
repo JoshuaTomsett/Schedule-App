@@ -60,11 +60,4 @@ class Schedule {
         myWriter.write(task + "\n");
         myWriter.close();
     }
-
-    public void print_data() {
-        System.out.println("");
-        for (ArrayList<String> item : data) {
-            System.out.println(item.get(0) + " --- " + item.get(1));
-        }
-    }
 }
