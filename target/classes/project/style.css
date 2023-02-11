@@ -10,3 +10,11 @@
 {
 -fx-background-color : #1620A1;
 }
+
+
+.buttonActive
+{
+-fx-background-color : #1620A1;
+-fx-text-fill : #e7e5e5;
+}
+

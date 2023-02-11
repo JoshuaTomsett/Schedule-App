@@ -34,5 +34,3 @@ public class App extends Application {
     }
 
 }
-
-// github test
